@@ -1,0 +1,196 @@
+# Chapter 1
+# Chapter 2
+# Chapter 3
+# Chapter 4
+# Chapter 5
+# Chapter 6
+- 11.      Explain the Asynchronous transfer
+- 8.      How does ATM differ from frame
+- 7.
+- 8. What is virtual circuit network? Explain ATM as a virtual circuit wide area network.(2+3)
+# Chapter 7
+# Unknown Chapter
+- 1.      Explain the principles of
+- OR
+- 
+- What are the main relationship
+- 2.      Explain the congestion control
+- 3.      Explain the connection oriented and
+- 4.      Explain the working principle of
+- 5.      What do you mean by pipelined
+- 6.      What do you mean by hierarchical
+- 7.      Explain the multicasting routine
+- 8.      Define data link layer and its
+- 9.      Mention the types of multimedia
+- 10.      What are the key components of
+- 1.      Explain the OSI reference model?
+- 
+- OR
+- What do you mean by TCP? Explain
+- 2.      Define DNS. Explain the DNS records
+- 3.      What do you mean by Internet
+- 4. Differentiate between transport layer and network layer
+- 5.  Explain the principle of congestion
+- 6.      What do you mean by IP datagram
+- 7.      Explain the point to point protocol
+- 8.      What do you mean by multicasting
+- 9.      Explain the Internet Control
+- 10.      What are the various types of
+- 11.      What type of intra structure is
+- 1.      What are the seven layers of OSI
+- 
+- What do you mean by routing?
+- 2.      Explain the congestion control
+- 3.      What do you mean by Internet
+- 4.      Differentiate between DNS records
+- 5.      Explain the pipelined reliable data
+- 6.      Explain network service model.
+- 7.      Explain IPV4 addressing.
+- 8.      What do you mean by network address
+- 9.      Explain on ALOHA and slotted ALOHA
+- 10.      What are the various applications
+- 11.      Explain the network management
+- 1.      Explain the functioning of 7 layers
+- 
+- OR
+- Explain the various layers of TCP/IP. Also, list protocols used in each
+- 2.      Explain how does CRC detect the
+- 3.      What are sliding window protocol?
+- 4.      Explain how slatted Aloha improves
+- 5.      Describe multimedia networking and
+- 6.      Why routing is important in a
+- 7.      Differentiate between broadband and
+- 9.      Compare and contrast the IPv4 and
+- 10.      Define multiplexing. Discuss the
+- 11.      What is meant by “domain name”? How
+- 1.      Define protocol. Why do we need
+- OR
+- 
+- 
+- 2.      What is routing? Discuss link state
+- 3.      Explain client server system. How
+- 4.      Discuss HTTP in detail.
+- 5.      Discuss the importance of
+- 6.      Assume a class B network and divide
+- 7.      Discuss CRC as an error detection
+- 8.      Explain the importance of
+- 9.      Why is network management an
+- 10.      What is congestion control? Why do
+- 11.      Write short note on:
+- a.       DNS
+- 
+- 
+- b.      Streaming audio and video
+- 1.      Discuss the relationship between
+- OR
+- 
+- What is transmission media? Discuss
+- 2.      Why do we need routing algorithm?
+- 3.      What is connection oriented
+- 4.      Discuss the working principle of
+- 5.      Why do we need multiplexing in data
+- 6.      What is subnetting? Assume a class
+- 7.      How does the system correct error
+- 8.      Discuss multimedia networking
+- 9.      Why is network management a
+- 10.      Discuss the importance of congestion
+- 11.      Write short notes on:
+- a.       HTTP
+- 
+- b.      Backbone
+- 1.      Explain
+- OR
+- What do you mean by link state routing algorithm?
+- 
+- 
+- 2.      Explain
+- 3.
+- 4.
+- 5.
+- 6.
+- 7.
+- 8.
+- 9.
+- 10.
+- 11.
+- 
+- 
+- 1.      What is
+- OR
+- 
+- How does transport layer support flow control?
+- 2.      Discuss
+- 
+- 
+- 3.
+- 4.
+- 5.
+- 6.
+- 8.
+- 9.
+- 10.
+- 11.
+- 
+- a.
+- b.
+- 1.      Define
+- OR
+- 
+- Define
+- 2.
+- 3.
+- 4.
+- 5.
+- 6.
+- 7.
+- 8.
+- 9.
+- 10. What are the applications of multimedia
+- 11.
+- a.
+- 
+- b.
+- 1.  Explain each layer of TCP/IP model in detail. Compare it with OSI model.
+- 2.  Define transmission media. What are different types of transmission media. Explain different types of unguided media in detail.
+- 3.  Define flow control. Explain Go-Back-N ARQ with suitable example. How is it different from Stop-and-Wait ARQ?
+- 4.  Define network topology. Explain ring topology along with its merits and demerits.
+- 5.  Explain LAN with example. How is it different from PAN?
+- 6.  Define routing table. Differentiate static routing table with dynamic routing table.
+- 7.  What is switching? Compare and contrast a circuit-switched network and packet-switched network.
+- 8.  Why do we need wireless LAN? Explain the architecture of IEEE 802.11 in detail.
+- 9.  What is NAT? How does it work? What are its benefits?
+- 10.  In a block of address, we know the IP Address of one host is 192.34.12.56/28. What are the first address(network address)  and the last address (limited broadcast address) in this block?
+- 11.  Why do we need a DNS system when we can directly use an IP address? what is domain name space?
+- 12. Write short notes on (any two):
+- a. Connection-oriented service
+- b. Bridge
+- c. Hamming distance
+- 1. Why do we need layered protocol architecture? Discuss each layer of TCP/IP architecture along with function of each layer. Compare TCP/IP with OSI model.
+- OR
+- Assume a class B network. Divide this network in 16 different sub-networks. What is new subnet mask?
+- 2. Define multiplexing. What are the benefits of using multiplexing? Discuss Go-Back-N and Selective Repeat protocol in detail.
+- 3. What is circuit-switching? How it is different from packet switching?
+- 4. Discuss different services provided by DNS.
+- 5. What are the causes of congestion? Discuss leaky bucket algorithm.
+- 6. Discuss different fields of UDP. How is it different from TCP?
+- 7. What is static routing? How is it different from dynamic routing?
+- 8. What is random access protocol? Discuss ALOHA in detail.
+- 9. Discuss HTTP video streaming in detail.
+- 10. What is network management ? Discuss different areas of network management.
+- 11. Write short notes on:
+- a. Multicasting routing
+- b. Point-to-point protocol
+- 1. What is transmission media? How do guided media differ from unguided media? Explain different types of guided media in detail.(1+2+7)
+- 2. What is flow control? Explain Stop-and-Wait ARQ with suitable example. How is it different from Go-Back-N ARQ? (2+5+3)
+- 3. Explain link state routing with example.(10)
+- 4. Explain client/ server network. How is it different from peer to peer network? (3+2)
+- 5. What is CSMA / CD ? Why is there no need for CSMA/CD on a full-duplex Ethernet LAN?(2.5+2.5)
+- 6. Write subnet ID and broadcast address of each subnet if you divide a class B network 150.10.0.0-150.10.255.255) in 4 different subnets. What is the new subnet mask?
+- 7. Explain the structure of IPv6 address. Compare IPv6 address with IPv4 address.(3+2)
+- 9. What is routing table? Differentiate static routing table with dynamic routine table.(2+3)
+- 10. What is open-loop congestion control? Compare it with closed-loop congestion control.(2+3)
+- 11. What are the different approaches for multimedia streaming? Explain.(5)
+- 12. Write short note on(any two)(2*2.5)
+- a. Blackbone network
+- b. ISDN
+- c. ALOHA

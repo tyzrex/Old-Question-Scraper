@@ -55,14 +55,14 @@ class WebScraper:
 
         return results
 
-    def write_to_file_hamrocsit(self, questions):
-        with open("questions.md", "w") as question_file:
+    def write_to_file_hamrocsit(self, questions, selected_subject):
+        with open(f"{selected_subject}.md", "w") as question_file:
             question_file.write("# Questions\n\n")
             for question in questions:
                 question_file.write(question + "\n\n")
 
-    def write_to_file_collegenote(self, batches):
-        with open("questions.md", "w") as question_file:
+    def write_to_file_collegenote(self, batches, selected_subject):
+        with open(f"{selected_subject}.md", "w") as question_file:
             question_file.write("# Questions\n\n")
 
             for batch in tqdm(batches, desc="Writing questions", unit="batch"):
@@ -102,7 +102,7 @@ class WebScraper:
             year = options[year]
 
             url = f"https://hamrocsit.com/semester/fourth/{selected_subject}/question-bank/{year}/"
-            return url, site
+            return url, site, selected_subject
 
         else:
             subjects = {
@@ -120,22 +120,25 @@ class WebScraper:
             # Get the selected subject's URL
             selected_url = subjects[selected_subject]
             url = f"https://www.collegenote.net/{selected_url}/"
-            return url, site
+            return url, site, selected_subject
 
     def scrape_questions(self):
-        url, site = self.scrape_options()
+        url, site, selected_subject = self.scrape_options()
         print(url)
         print("Scraping questions from", url)
         if (site == "Hamro csit"):
             questions = self.get_all_questions_hamrocsit(url)
-            self.write_to_file_hamrocsit(questions)
+            self.write_to_file_hamrocsit(questions, selected_subject)
+            return selected_subject
 
         else:
             batches = self.get_all_questions_collegenote(url)
-            self.write_to_file_collegenote(batches)
+            self.write_to_file_collegenote(batches, selected_subject)
+            return selected_subject
 
 
 scraper = WebScraper()
-scraper.scrape_questions()
+selected_subject = scraper.scrape_questions()
 
-subprocess.run(["mdpdf", "-o", "questions.pdf", "questions.md"])
+subprocess.run(
+    ["mdpdf", "-o", f"{selected_subject}.pdf", f"{selected_subject}.md"])

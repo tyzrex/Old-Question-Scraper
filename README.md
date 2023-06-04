@@ -40,4 +40,4 @@ python3 scrape-og.py
 ```
 
 4. Follow the prompts to select the website, subject, and other options for scraping questions.
-5. The scraped questions will be saved in a Markdown file named `questions.md`. and the resuting PDF file, `questions.pdf`, will contain the scraped questions in pdf form.
+5. The scraped questions will be saved in a Markdown file named `subjectname.md`. and the resuting PDF file, `subjectname.pdf`, will contain the scraped questions in pdf form.
